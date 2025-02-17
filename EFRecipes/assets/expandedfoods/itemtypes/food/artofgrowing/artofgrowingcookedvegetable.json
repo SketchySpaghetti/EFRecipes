@@ -1,0 +1,1567 @@
+{
+  "code": "artofgrowingcookedvegetable",
+  "maxstacksizeByType": {
+    "*-wild-*": 128,
+    "*-small-*": 96,
+    "*-medium-*": 64,
+    "*-decent-*": 48,
+    "*-large-*": 32,
+    "*-hefty-*": 24,
+    "*-gigantic-*": 16
+  },
+  "variantgroups": [
+    {
+      "code": "size",
+      "states": [ "wild", "small", "medium", "decent", "large", "hefty", "gigantic" ]
+    },
+    {
+      "code": "type",
+      "states": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip" ]
+    },
+    {
+      "code": "state",
+      "states": [ "partbaked", "perfect", "charred" ]
+    }
+  ],
+  "shapeByType": {
+    "*": { "base": "artofgrowing:item/food/clear/{size}/{type}" }
+  },
+  "textures": {
+    "cabbage": { "base": "item/food/veggie/{state}/cabbage/cabbage" },
+    "bottom12": { "base": "item/food/veggie/{state}/cabbage/bottom12" },
+    "top": { "base": "item/food/veggie/{state}/cabbage/top" },
+    "carrot": { "base": "item/food/veggie/{state}/carrot" },
+    "pickledcarrot": { "base": "item/food/veggie/{state}/pickledcarrot" },
+    "turnip": { "base": "item/food/veggie/{state}/turnip" },
+    "pickledturnip": { "base": "item/food/veggie/{state}/pickledturnip" },
+    "onion": { "base": "item/food/veggie/{state}/onion" },
+    "pickledonion": { "base": "item/food/veggie/{state}/pickledonion" },
+    "parsnip": { "base": "item/food/veggie/{state}/parsnip" },
+    "pickledparsnip": { "base": "item/food/veggie/{state}/pickledparsnip" }
+
+  },
+  "attributesByType": {
+    "*-cabbage-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-cabbage-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-cabbage"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": -0.125,
+          "z": 0
+        },
+        "scale": 0.75
+      }
+    },
+    "*-carrot-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-carrot-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-carrot"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledcarrot-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledcarrot-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledcarrot"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-turnip-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-turnip-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-turnip"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledturnip-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledturnip-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledturnip"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-parsnip-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-parsnip-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-parsnip"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledparsnip-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledparsnip-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledparsnip"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledonion-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledonion-perfect",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledonion"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+
+    "*-cabbage-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-cabbage-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-cabbage-partbaked"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": -0.125,
+          "z": 0
+        },
+        "scale": 0.75
+      }
+    },
+    "*-carrot-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-carrot-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-carrot-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledcarrot-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledcarrot-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledcarrot-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-turnip-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-turnip-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-turnip-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledturnip-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledturnip-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledturnip-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-parsnip-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-parsnip-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-parsnip-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledparsnip-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledparsnip-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledparsnip-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledonion-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledonion-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledonion-partbaked"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+
+    "*-cabbage-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-cabbage-perfect"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": -0.125,
+          "z": 0
+        },
+        "scale": 0.75
+      }
+    },
+    "*-carrot-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-carrot-perfect"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledcarrot-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledcarrot-perfect"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-turnip-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-turnip-perfect"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledturnip-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledturnip-perfect"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-parsnip-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-parsnip-perfect"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledparsnip-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledparsnip-perfect"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 90
+        },
+        "translation": {
+          "x": -0.2,
+          "y": -0.45,
+          "z": 0.2
+        },
+        "scale": 1
+      }
+    },
+    "*-pickledonion-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-pickledonion-perfect"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+
+    "*-partbaked": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-{type}-perfect",
+        "initialCode": "artofgrowing:vegetable-{size}-{type}"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+    "*-perfect": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 0.9,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:artofgrowingcookedvegetable-{size}-{type}-charred",
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-{type}-partbaked"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+    "*-charred": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { "groupBy": [ "cookedveggie-*" ] },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 0.8,
+        "endScaleY": 0.7,
+        "initialCode": "expandedfoods:artofgrowingcookedvegetable-{size}-{type}-perfect"
+      },
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    }
+  },
+  "combustiblePropsByType": {
+    "@*-(partbaked|perfect)": {
+      "meltingPoint": 150,
+      "meltingDuration": 20,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:artofgrowingcookedvegetable-{size}-{type}-charred"
+      },
+      "requiresContainer": false
+    }
+  },
+  "materialDensity": 600,
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "expandedfoods": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-cabbage-partbaked": {
+      "satietyByType": {
+        "*-wild-*": 50,
+        "*-small-*": 100,
+        "*-medium-*": 175,
+        "*-decent-*": 250,
+        "*-large-*": 325,
+        "*-hefty-*": 400,
+        "*-gigantic-*": 500
+      },
+      "foodcategory": "Vegetable"
+    },
+    "*-cabbage-perfect": {
+      "satietyByType": {
+        "*-wild-*": 60,
+        "*-small-*": 120,
+        "*-medium-*": 200,
+        "*-decent-*": 300,
+        "*-large-*": 400,
+        "*-hefty-*": 500,
+        "*-gigantic-*": 600
+      },
+      "foodcategory": "Vegetable"
+    },
+    "*-cabbage-charred": {
+      "satietyByType": {
+        "*-wild-*": 55,
+        "*-small-*": 110,
+        "*-medium-*": 185,
+        "*-decent-*": 275,
+        "*-large-*": 350,
+        "*-hefty-*": 450,
+        "*-gigantic-*": 550
+      },
+      "foodcategory": "Vegetable"
+    },
+
+    "@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip)-partbaked": {
+      "satietyByType": {
+        "wild": 18,
+        "small": 35,
+        "medium": 55,
+        "decent": 70,
+        "large": 90,
+        "hefty": 130,
+        "gigantic": 175
+      },
+      "foodcategory": "Vegetable"
+    },
+    "@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip)-perfect": {
+      "satietyByType": {
+        "wild": 25,
+        "small": 45,
+        "medium": 65,
+        "decent": 85,
+        "large": 100,
+        "hefty": 160,
+        "gigantic": 215
+      },
+      "foodcategory": "Vegetable"
+    },
+    "@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip)-charred": {
+      "satietyByType": {
+        "wild": 20,
+        "small": 40,
+        "medium": 60,
+        "decent": 75,
+        "large": 95,
+        "hefty": 145,
+        "gigantic": 195
+      },
+      "foodcategory": "Vegetable"
+    },
+
+    "*-partbaked": {
+      "satietyByType": {
+        "*-wild-*": 30,
+        "*-small-*": 60,
+        "*-medium-*": 85,
+        "*-decent-*": 100,
+        "*-large-*": 110,
+        "*-hefty-*": 130,
+        "*-gigantic-*": 150
+      },
+      "foodcategory": "Vegetable"
+    },
+    "*-perfect": {
+      "satietyByType": {
+        "*-wild-*": 40,
+        "*-small-*": 80,
+        "*-medium-*": 110,
+        "*-decent-*": 130,
+        "*-large-*": 140,
+        "*-hefty-*": 160,
+        "*-gigantic-*": 180
+      },
+      "foodcategory": "Vegetable"
+    },
+    "*-charred": {
+      "satietyByType": {
+        "*-wild-*": 35,
+        "*-small-*": 70,
+        "*-medium-*": 95,
+        "*-decent-*": 115,
+        "*-large-*": 125,
+        "*-hefty-*": 145,
+        "*-gigantic-*": 165
+      },
+      "foodcategory": "Vegetable"
+    }
+  },
+  "guiTransformByType": {
+    "*-cabbage-*": {
+      "translation": {
+        "x": 2.5,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 137,
+        "y": 131,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.2,
+        "z": 0.5
+      },
+      "scale": 2.6
+    },
+    "*-carrot-*": {
+      "translation": {
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 180,
+        "y": 44,
+        "z": 56
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.2,
+        "z": 0.5
+      },
+      "scale": 4.75
+    },
+    "*-pickledcarrot-*": {
+      "translation": {
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 180,
+        "y": 44,
+        "z": 56
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.2,
+        "z": 0.5
+      },
+      "scale": 4.75
+    },
+    "*-onion-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -37,
+        "y": 135,
+        "z": -155
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 5.35
+    },
+    "*-pickledonion-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -37,
+        "y": 135,
+        "z": -155
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 5.35
+    },
+    "*-parsnip-*": {
+      "translation": {
+        "x": 2,
+        "y": 2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 180,
+        "y": 158,
+        "z": 38
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.23,
+        "z": 0.5
+      },
+      "scale": 3.6
+    },
+    "*-pickledparsnip-*": {
+      "translation": {
+        "x": 2,
+        "y": 2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 180,
+        "y": 158,
+        "z": 38
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.23,
+        "z": 0.5
+      },
+      "scale": 3.6
+    },
+    "*-turnip-*": {
+      "translation": {
+        "x": 1,
+        "y": 2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 180,
+        "y": 158,
+        "z": 38
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.18,
+        "z": 0.5
+      },
+      "scale": 4.25
+    },
+    "*-pickledturnip-*": {
+      "translation": {
+        "x": 1,
+        "y": 2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 180,
+        "y": 158,
+        "z": 38
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.18,
+        "z": 0.5
+      },
+      "scale": 4.25
+    }
+  },
+  "tpHandTransformByType": {
+    "*-cabbage-*": {
+      "translation": {
+        "x": -0.7,
+        "y": -0.14,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 1,
+        "y": -1,
+        "z": -31
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.79
+    },
+    "*-carrot-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-pickledcarrot-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-onion-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-pickledonion-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-parsnip-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-pickledparsnip-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-turnip-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-pickledturnip-*": {
+      "translation": {
+        "x": -0.6,
+        "y": -0.18,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    }
+  },
+  "groundTransformByType": {
+    "*-cabbage-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3.5
+    },
+    "*-carrot-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 83
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 4.3
+    },
+    "*-pickledcarrot-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 83
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 4.3
+    },
+    "*-onion-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 83
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 4.3
+    },
+    "*-pickledonion-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 83
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 4.3
+    },
+    "*-parsnip-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 83
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 4.3
+    },
+    "*-pickledparsnip-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 83
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 4.3
+    },
+    "*-turnip-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 75
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3.8
+    },
+    "*-pickledturnip-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 75
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3.8
+    }
+  },
+  "transitionablePropsByType": {
+    "*-onion-partbaked": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 672 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledcarrot-partbaked": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledonion-partbaked": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledparsnip-partbaked": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledturnip-partbaked": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-onion-perfect": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 672 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+
+    "*-pickledcarrot-perfect": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledonion-perfect": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledparsnip-perfect": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledturnip-perfect": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1800 },
+        "transitionHours": { "avg": 240 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+
+    "*-onion-charred": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 2352 },
+        "transitionHours": { "avg": 200 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledcarrot-charred": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 7300 },
+        "transitionHours": { "avg": 400 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledonion-charred": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 7300 },
+        "transitionHours": { "avg": 400 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledparsnip-charred": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 7300 },
+        "transitionHours": { "avg": 400 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-pickledturnip-charred": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 7300 },
+        "transitionHours": { "avg": 400 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+
+    "*-partbaked": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 504 },
+        "transitionHours": { "avg": 96 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-perfect": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 504 },
+        "transitionHours": { "avg": 96 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "*-charred": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1764 },
+        "transitionHours": { "avg": 160 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ]
+  }
+}
