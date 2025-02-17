@@ -1,0 +1,1179 @@
+﻿[
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-wild-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-wild-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-wild-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-wild-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-wild-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-wild-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-small-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-small-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-small-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-small-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-small-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-small-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-medium-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-medium-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-medium-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-medium-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-medium-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-medium-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-decent-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-decent-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-decent-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-decent-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-decent-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-decent-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-large-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-large-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-large-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-large-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-large-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-large-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-hefty-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-hefty-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-hefty-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-hefty-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-hefty-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-hefty-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-gigantic-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-gigantic-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-gigantic-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-gigantic-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-gigantic-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-gigantic-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-wild-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-wild-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-wild-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-wild-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-wild-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-wild-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-small-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-small-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-small-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-small-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-small-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-small-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-medium-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-medium-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-medium-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-medium-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-medium-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-medium-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-decent-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-decent-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-decent-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-decent-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-decent-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-decent-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-large-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-large-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-large-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-large-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-large-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-large-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-hefty-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-hefty-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-hefty-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-hefty-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-hefty-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-hefty-{type}-charred"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-gigantic-*-partbaked",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-gigantic-{type}-partbaked"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-gigantic-*-perfect",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-gigantic-{type}-perfect"
+    }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "item",
+        "code": "artofgrowingcookedpickledvegetable-gigantic-*-charred",
+        "allowedVariants": [
+          "carrot",
+          "onion",
+          "turnip",
+          "parsnip"
+        ],
+        "name": "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "artofgrowingcookedchoppedpickledvegetable-gigantic-{type}-charred"
+    }
+  }
+
+]

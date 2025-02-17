@@ -1,0 +1,15 @@
+[
+  {
+    "file": "expandedfoods:itemtypes/food/artofgrowingchoppedvegetable.json",
+    "op": "addmerge",
+    "path": "/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "artofgrowing",
+        "invert": true
+      }
+    ]
+  }
+]
